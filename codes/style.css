@@ -136,15 +136,44 @@ body{
 }
 
 /* backgrounds */
-#opt1{background-image: url(/codes/pics/miata.jpeg);background-position: center;} /* regra dos terços*/
-#opt2{background-image: url(/codes/pics/kurama.jpeg);background-position: top;} /* preencha o espaço*/
-#opt3{background-image: url('');background-position: center;}
-#opt4{background-image: url('');background-position: center;}
-#opt5{background-image: url('');background-position: center;}
-#opt6{background-image: url('');background-position: center;}
-#opt7{background-image: url('');background-position: center;}
-#opt8{background-image: url('');background-position: center;}
-#opt9{background-image: url('');background-position: center;}
+#opt1{
+    background-image: url(/codes/pics/miata.jpeg);
+    background-image: url(https://cdn.glitch.global/4cc125e4-5188-4673-8e54-dac283e6c6a2/miata.jpeg?v=1684640190290);
+    background-position: center;
+} /* regra dos terços*/
+#opt2{
+    background-image: url(/codes/pics/kurama.jpeg);
+    background-image: url(https://cdn.glitch.global/4cc125e4-5188-4673-8e54-dac283e6c6a2/miata.jpeg?v=1684640190290);
+    background-position: top;
+} /* preencha o espaço*/
+#opt3{
+    background-image: url('');
+    background-position: center;
+}
+#opt4{
+    background-image: url('');
+    background-position: center;
+}
+#opt5{
+    background-image: url('');
+    background-position: center;
+}
+#opt6{
+    background-image: url('');
+    background-position: center;
+}
+#opt7{
+    background-image: url('');
+    background-position: center;
+}
+#opt8{
+    background-image: url('');
+    background-position: center;
+}
+#opt9{
+    background-image: url('');
+    background-position: center;
+}
 
 
 #opt1:hover, #opt2:hover, #opt3:hover, #opt4:hover, #opt5:hover, #opt6:hover, #opt7:hover, #opt8:hover, #opt9:hover{

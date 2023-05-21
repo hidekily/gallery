@@ -81,8 +81,8 @@ let linhas = 0
 function linha(){
     switch(linhas){
         case 0:
-            document.getElementById('opt1').style.backgroundImage = 'url(/codes/pics/miatalinha.jpeg)' //1
-            document.getElementById('opt2').style.backgroundImage = 'url(/codes/pics/kuramalinha.jpeg)' //2
+            document.getElementById('opt1').style.backgroundImage = 'url(https://cdn.glitch.global/4cc125e4-5188-4673-8e54-dac283e6c6a2/miatalinha.jpeg?v=1684640191569)' //1
+            document.getElementById('opt2').style.backgroundImage = 'url(https://cdn.glitch.global/4cc125e4-5188-4673-8e54-dac283e6c6a2/kuramalinha.jpeg?v=1684640189003)' //2
             document.getElementById('opt3').style.backgroundImage = 'url(/codes/pics/)' //3
             document.getElementById('opt4').style.backgroundImage = 'url(/codes/pics/)' //4
             document.getElementById('opt5').style.backgroundImage = 'url(/codes/pics/)' //5
@@ -93,8 +93,8 @@ function linha(){
             linhas++
         break;
         case 1:
-            document.getElementById('opt1').style.backgroundImage = 'url(/codes/pics/miata.jpeg)'//1
-            document.getElementById('opt2').style.backgroundImage = 'url(/codes/pics/kurama.jpeg)'//2
+            document.getElementById('opt1').style.backgroundImage = 'url(https://cdn.glitch.global/4cc125e4-5188-4673-8e54-dac283e6c6a2/miata.jpeg?v=1684640190290)'//1
+            document.getElementById('opt2').style.backgroundImage = 'url(https://cdn.glitch.global/4cc125e4-5188-4673-8e54-dac283e6c6a2/kurama.jpeg?v=1684640187225)'//2
             document.getElementById('opt3').style.backgroundImage = 'url(/codes/pics/)'//3
             document.getElementById('opt4').style.backgroundImage = 'url(/codes/pics/)'//4
             document.getElementById('opt5').style.backgroundImage = 'url(/codes/pics/)'//5
