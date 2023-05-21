@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>galeria</title>
+
+    <link rel="icon" href="https://i.pinimg.com/236x/ba/89/ce/ba89cecf6c6174977a0848fb7952f787.jpg">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau:ital,wght@1,100&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <nav id="navbar">
+        <div id="pics">
+            <button onclick="scale()" id="sawc"><h2 id="hikari">clique para ver a escala original</h2></button>
+        </div>
+        <div id="pics">
+            <button onclick="linha()" id="sawc"><h2 id="hikari">clique para ver as linhas de divisão</h2></button>
+        </div>
+    </nav>
+
+    <div id="startsG">
+        <div id="box">
+            <button id="button" onclick="coisadelouco()">
+                <h3>ver galeria</h3>
+                <a id="image"></a>
+            </button>
+        </div>
+    </div>
+
+    <div id="ajuste">
+        <div id="grid">
+            <a id="opt1" onmouseover="optOVER1('opt1')" onmouseout="optOUT1()"><p>regra dos terços</p></a>
+            <a id="opt2" onmouseover="optOVER1('opt2')" onmouseout="optOUT1()"><p>preencha o espaço</p></a>
+            <a id="opt3" onmouseover="optOVER1('opt3')" onmouseout="optOUT1()"><p>linhas principais</p></a>
+            <a id="opt4" onmouseover="optOVER1('opt4')" onmouseout="optOUT1()"><p>linhas diagonais</p></a>
+            <a id="opt5" onmouseover="optOVER1('opt5')" onmouseout="optOUT1()"><p>quadros</p></a>
+            <a id="opt6" onmouseover="optOVER1('opt6')" onmouseout="optOUT1()"><p>olho predominante</p></a>
+            <a id="opt7" onmouseover="optOVER1('opt7')" onmouseout="optOUT1()"><p>padrões</p></a>
+            <a id="opt8" onmouseover="optOVER1('opt8')" onmouseout="optOUT1()"><p>contraste</p></a>
+            <a id="opt9" onmouseover="optOVER1('opt9')" onmouseout="optOUT1()"><p>simetria</p></a>
+      </div>
+    </div>
+
+</body>
+</html>
