@@ -147,37 +147,38 @@ body{
     background-position: top;
 } /* preencha o espaço*/
 #opt3{
-    background-image: url('');
+    background-image: url('https://cdn.glitch.global/4cc125e4-5188-4673-8e54-dac283e6c6a2/linhasP.jpeg?v=1684802700986');
     background-position: center;
-}
+}/*linhas principais*/
 #opt4{
-    background-image: url('');
+    background-image: url('https://cdn.glitch.global/4cc125e4-5188-4673-8e54-dac283e6c6a2/diagonal.jpeg?v=1684882220486');
     background-position: center;
-}
+}/*linhas diagonais*/
 #opt5{
-    background-image: url('');
+    background-image: url('https://cdn.glitch.global/4cc125e4-5188-4673-8e54-dac283e6c6a2/quadro.jpeg?v=1684803037125');
     background-position: center;
-}
+}/*quadros*/
 #opt6{
-    background-image: url('');
+    background-image: url('https://cdn.glitch.global/4cc125e4-5188-4673-8e54-dac283e6c6a2/olho.jpeg?v=1684803259634');
     background-position: center;
-}
+}/*olho*/
 #opt7{
-    background-image: url('');
+    background-image: url('https://cdn.glitch.global/4cc125e4-5188-4673-8e54-dac283e6c6a2/padrao.jpeg?v=1684802709357');
     background-position: center;
-}
+}/*padroes*/
 #opt8{
-    background-image: url('');
+    background-image: url('https://cdn.glitch.global/4cc125e4-5188-4673-8e54-dac283e6c6a2/contraste.jpeg?v=1684803491125');
     background-position: center;
-}
+}/*contraste*/
 #opt9{
-    background-image: url('');
+    background-image: url('https://cdn.glitch.global/4cc125e4-5188-4673-8e54-dac283e6c6a2/simetria.jpeg?v=1684882222092');
     background-position: center;
-}
+}/*simetria*/
 
 
 #opt1:hover, #opt2:hover, #opt3:hover, #opt4:hover, #opt5:hover, #opt6:hover, #opt7:hover, #opt8:hover, #opt9:hover{
     font-size: 0;
+    transform: scale(120%);
 }
 
 #pics{
